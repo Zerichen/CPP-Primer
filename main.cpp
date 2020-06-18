@@ -3,6 +3,10 @@
 using namespace std;
 
 int main() {
-    cout << "Hello, Eric!" << endl;
+    char name[1];
+    int age;
+    cout << "What's your name?" << endl;
+    cin >> name;
+    cout << "My Name is: " << name << endl;
     return 0;
 }
