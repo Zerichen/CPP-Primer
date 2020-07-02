@@ -1,12 +1,15 @@
 #include <iostream>
+#include "chapter1.h"
+#include "chapter2.h"
 
 using namespace std;
+//using variable defined in chapter2.cpp
+//it is error to write extern int e = 4;
+extern int e;
+extern const int f;
+double Double = 3.145;
 
 int main() {
-    char name[1];
-    int age;
-    cout << "What's your name?" << endl;
-    cin >> name;
-    cout << "My Name is: " << name << endl;
+
     return 0;
 }
