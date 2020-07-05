@@ -11,6 +11,6 @@ extern const int f;
 double Double = 3.145;
 
 int main() {
-    multidimenArray();
+    binarySearch();
     return 0;
 }

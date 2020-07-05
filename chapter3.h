@@ -15,4 +15,5 @@ constexpr int get_size();
 void arrays();
 void arrayPointer();
 void multidimenArray();
+void binarySearch();
 #endif //CPP_PRIMER_CHAPTER3_H
