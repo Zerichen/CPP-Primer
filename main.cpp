@@ -1,6 +1,7 @@
 #include <iostream>
 #include "chapter1.h"
 #include "chapter2.h"
+#include "chapter3.h"
 
 using namespace std;
 //using variable defined in chapter2.cpp
@@ -10,6 +11,6 @@ extern const int f;
 double Double = 3.145;
 
 int main() {
-
+    multidimenArray();
     return 0;
 }

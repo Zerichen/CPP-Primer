@@ -146,9 +146,21 @@ void constQualifier() {
 int j = 0;
 constexpr int *p1 = &j;
 
+constexpr int size() {
+    return 5;
+}
+
 void constExpression() {
+    const int i = 0;
+//    constexpr int *nperror = &i; // error because i is defined inside a function
+//    we cannot make a const pointer to such unfixed addressed variable
+//but j is defined outside any functions, hence we can point to it even inside the function
+    constexpr int *np = &j;
+
+//    not only does const expression requires the constexpr
+//    but it must be initialized from a const expression as well
+    constexpr int sz = size(); // ok only if size is a constexpr function
     const int *p = nullptr; // p is pointer to const int
-    constexpr int *np = nullptr; // point to nullptr
     constexpr int *q = nullptr; // q is const pointer to int
 }
 

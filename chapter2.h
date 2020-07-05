@@ -10,6 +10,7 @@ void variabledemo();
 void reference();
 void pointer();
 void constQualifier();
+constexpr int size();
 void constExpression();
 void typeAlias();
 int sales_data();

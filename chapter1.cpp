@@ -12,11 +12,16 @@ void iodemo(void) {
 //        it is a dangerous undefined behavior
     char name[1];
     int age;
-    cout << "What's your name?" << endl;
+    cout << "What's your name?"; // endl will add \n and flush out output buffer
     cin >> name;
-    cout << "What's your age?" << endl;
+    cout << "What's your age?";
     cin >> age;
 //         << will return its left operator, si the expression can be chained
-    cout << "My Name is: " << name << ", who is " << age << " years old." << endl;
+    cout << "My Name is: " << name << ", who is " << age << " years old.";
+
+    int sum = 0, value = 0;
+    while (std::cin >> value) // condition fails if cin reads an invalid input or EOF
+        sum += value;
+    std::cout << "Sum is: " << sum << std::endl;
 }
 
