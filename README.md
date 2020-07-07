@@ -4,7 +4,7 @@
 - [x] Chapter 1: Getting Started
 - [x] Chapter 2: Variables and Basic Types
 - [x] Chapter 3: Strings, Vectors and Arrays
-- [ ] Chapter 4: Expressions
+- [x] Chapter 4: Expressions
 - [ ] Chapter 5: Statements
 - [ ] Chapter 6: Functions
 - [ ] Chapter 7: Classes
