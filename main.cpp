@@ -3,6 +3,8 @@
 #include "chapter2.h"
 #include "chapter3.h"
 #include "chapter4.h"
+#include "chapter5.h"
+#include "chapter6.h"
 
 using namespace std;
 //using variable defined in chapter2.cpp
@@ -12,6 +14,5 @@ extern const int f;
 double Double = 3.145;
 
 int main() {
-    typeConversion();
     return 0;
 }

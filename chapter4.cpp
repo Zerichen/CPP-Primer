@@ -18,6 +18,8 @@ void order() {
 //    only &&, ||, ?:, , operators will promise the order
 
 //    a && b, b will be evaluated only if a is true
+//    this is useful when we use the left true condition to evaluate the right condition
+//    for example: i < s.size() && s[i] != "" ensures that the index will never go out of range
 //    a || b, b will be evaluated only if a is false
 
     bool t = true; // 1
@@ -82,6 +84,6 @@ void typeConversion() {
 
 //    const_cast, cast away const
     const char *pc;
-    char *pc = const_cast<char*>(pc);
+    char *pcc = const_cast<char*>(pc);
 }
 

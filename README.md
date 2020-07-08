@@ -5,7 +5,7 @@
 - [x] Chapter 2: Variables and Basic Types
 - [x] Chapter 3: Strings, Vectors and Arrays
 - [x] Chapter 4: Expressions
-- [ ] Chapter 5: Statements
+- [x] Chapter 5: Statements
 - [ ] Chapter 6: Functions
 - [ ] Chapter 7: Classes
 - [ ] Chapter 8: The IO
